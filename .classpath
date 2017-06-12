@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="E:/Original Programs/Jars/Android/Twitter/twitter4j-4.0.1/lib/twitter4j-async-4.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Original Programs/Jars/Android/Twitter/twitter4j-4.0.1/lib/twitter4j-core-4.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Original Programs/Jars/Android/Twitter/twitter4j-4.0.1/lib/twitter4j-examples-4.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Original Programs/Jars/Android/Twitter/twitter4j-4.0.1/lib/twitter4j-media-support-4.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Original Programs/Jars/Android/Twitter/twitter4j-4.0.1/lib/twitter4j-stream-4.0.1.jar"/>
+	<classpathentry kind="lib" path="E:/Original Programs/Jars/Android/JSON and REST web services/httpclient-4.0-beta2.jar"/>
+	<classpathentry kind="lib" path="E:/Original Programs/Jars/Android/JSON and REST web services/http-core-4.1.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

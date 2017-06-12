@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llLogin1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/solid6"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <ScrollView
+        android:id="@+id/svLogin3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        
+        >
+
+        <LinearLayout
+            android:id="@+id/llLogin12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/llLogin2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_and_border"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <LinearLayout
+                    android:id="@+id/llLogin3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="100" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/user2" />
+
+                    <EditText
+                        android:id="@+id/etLoginUsername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="70"
+                        android:hint="@string/page6Str1"
+                        android:inputType="text"
+                        android:maxLength="20" />
+
+                    <CheckBox
+                        android:id="@+id/cbLoginUserValid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llLogin4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="100" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/password" />
+
+                    <EditText
+                        android:id="@+id/etLoginPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="70"
+                        android:hint="@string/page6Str2"
+                        android:inputType="textPassword"
+                        android:maxLength="20" />
+
+                    <CheckBox
+                        android:id="@+id/cbLoginPassValid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:enabled="false" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/cbLoginShowPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/page6Str3"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnLoginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/rounded_border"
+                android:padding="11dp"
+                android:text="@string/page6Str4"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvLoginForgetPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adViewLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3330565936797075/8209625348" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

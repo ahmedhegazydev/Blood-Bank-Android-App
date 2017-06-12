@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_margin="7dp"
+    >
+    
+    
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFace"
+        android:background="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_margin="3dp"
+        android:text="Facebook Login"
+        android:gravity="center_horizontal"
+        />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGoogle"
+        android:background="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_margin="3dp"
+        android:text="Google + Login"
+        android:gravity="center_horizontal"
+        />
+    
+
+</LinearLayout>

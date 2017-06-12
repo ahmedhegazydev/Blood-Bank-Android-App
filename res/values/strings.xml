@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blood Bank</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="APP_ID_Facebook">1491877237551327</string>
+
+    <!-- Backendless strings -->
+    <string name="app_id_backendless">F9EAF038-2478-F432-FFBD-E173509E7C00</string>
+    <string name="api_key">8B8235FD-95EC-B67C-FFB6-FE37DCE4D400</string>
+    <string name="server_url">https://api.backendless.com</string>
+    <string name="My_Add_Id">ca-app-pub-3330565936797075/8209625348</string>
+    <string name="twitter_Consumer_Key_API_Key">3PjijcZO0WTCWPHvitsJcbwqL</string>
+    <string name="twitter_Consumer_Secret_API_Secret">43EkQ3RDeoE3nU4AwnwUKcQlx8X2p7KEyCHXBCi69dgQbxPLW0</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Blood Groups</item>
+        <item>Profile</item>
+        <item>Serach Donor</item>
+        <item>Requests</item>
+        <item >Logout</item>
+        <item>Notification</item>
+        <item>Settings</item>
+        <item>Help</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+    
+    
+    
+    
+    <string name="page1Str1">Enter Firstname</string>
+    <string name="page1Str2">Enter Lastname</string>
+    <string name="page1Str3">Enter Email</string>
+    <string name="page1Str4">Enter Phone</string>
+    <string name="page1Str5">Male</string>
+    <string name="page1Str6">Female</string>
+    <string name="page1Str7">Enter Country</string>
+    <string name="page1Str8">Enter City</string>
+    <string name="page1Str9">Authentication Details</string>
+    <string name="page1Str10">Enter Username</string>
+    <string name="page1Str11">Enter new not exist</string>
+    <string name="page1Str12">Enter Password</string>
+    <string name="page1Str13">Confirm Password</string>
+    <string name="page1Str14">Upload Personal Image</string>
+    <string name="page1Str15">I want to be a donor</string>
+    <string name="page1Str16">Register</string>
+    <string name="page1Str17">Or</string>
+    <string name="page2Str1">Enter Quantity</string>
+    <string name="page2Str2">Send Request</string>
+    <string name="page3Str1">Search For Donor</string>
+    <string name="page4Str1">Edit Firstname</string>
+    <string name="page4Str2">Edit Lastname</string>
+    <string name="page4Str3">Edit Phone</string>
+    <string name="page4Str4">Edit Email</string>
+    <string name="page4Str5">Male</string>
+    <string name="page4Str6">Female</string>
+    <string name="page4Str7">Edit Country</string>
+    <string name="page4Str8">Edit Country</string>
+    <string name="page4Str9">Edit City</string>
+    <string name="page4Str10">Authentication Details</string>
+    <string name="page4Str11">Edit Username</string>
+    <string name="page4Str12">Enter new not exist</string>
+    <string name="page4Str14">Edit Password</string>
+    <string name="page4Str15">Confirm Password</string>
+    <string name="page4Str16">Change Personal Image</string>
+    <string name="page4Str17">I want to be a donor</string>
+    <string name="page4Str18">Update</string>
+    <string name="page5Str1">Enter username</string>
+    <string name="page5Str2">Enter new password</string>
+    <string name="page5Str3">Confirm password</string>
+    <string name="page5Str4">Edit Password</string>
+    <string name="page6Str1">Enter username</string>
+    <string name="page6Str2">Enter password</string>
+    <string name="page6Str3">Show password</string>
+    <string name="page6Str4">Login Here</string>
+    
+    
+    <string name="Requests">Requests</string>
+    <string name="Quantity">Quantity</string>
+    
+
+</resources>

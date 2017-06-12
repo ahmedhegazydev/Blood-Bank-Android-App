@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llEditProfile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/solid6"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/svEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp" >
+
+        <LinearLayout
+            android:id="@+id/llEditProfile1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/llEditProfile2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/llEditProfile3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_and_border"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/editFirstname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:hint="@string/page4Str1"
+                        android:maxLength="20"
+                        android:textColorHint="#b9b8d8"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editlastname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:hint="@string/page4Str2"
+                        android:maxLength="20"
+                        android:textColorHint="#b9b8d8"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:layout_weight="70"
+                        android:hint="@string/page4Str3"
+                        android:inputType="number"
+                        android:maxLength="20"
+                        android:textColorHint="#b9b8d8"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/llEditProfile4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:orientation="horizontal"
+                        android:weightSum="100" >
+
+                        <EditText
+                            android:id="@+id/editemail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="70"
+                            android:hint="@string/page4Str4"
+                            android:maxLength="20"
+                            android:textColorHint="#b9b8d8"
+                            android:textStyle="bold" />
+
+                        <CheckBox
+                            android:id="@+id/editvalidEmail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30" 
+                            android:enabled="false"
+                            />
+                    </LinearLayout>
+
+                    <RadioGroup
+                        android:id="@+id/rgEditProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/round_and_border3"
+                        android:orientation="horizontal"
+                        android:padding="5dp" >
+
+                        <RadioButton
+                            android:id="@+id/editmale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/page4Str5"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <RadioButton
+                            android:id="@+id/editfemale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/page4Str6"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </RadioGroup>
+
+                    <EditText
+                        android:id="@+id/editcountry"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:gravity="center_horizontal"
+                        android:hint="@string/page4Str7"
+                        android:maxLength="20"
+                        android:textColorHint="#b9b8d8"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editcity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:gravity="center_horizontal"
+                        android:hint="@string/page4Str9"
+                        android:maxLength="20"
+                        android:textColorHint="#b9b8d8"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#ffdab9"
+                        android:gravity="center_horizontal"
+                        android:text="@string/page4Str10"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/llEditProfile5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/round_and_border"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:id="@+id/llEditProfile6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="100"
+                            android:gravity="center_vertical"
+                             >
+
+                            <EditText
+                                android:id="@+id/editusername"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="80"
+                                android:hint="@string/page4Str11"
+                                android:maxLength="20" />
+
+                            <ImageView
+                                android:id="@+id/editexistingUser"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:scaleType="center" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/edittvExisting"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/page4Str12"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/editpassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:hint="@string/page4Str14"
+                            android:maxLength="20" />
+
+                        <LinearLayout
+                            android:id="@+id/llEditProfile7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:orientation="horizontal"
+                            android:weightSum="100" >
+
+                            <EditText
+                                android:id="@+id/editconfPassReg"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="80"
+                                android:hint="@string/page4Str15"
+                                android:maxLength="20" />
+
+                            <CheckBox
+                                android:id="@+id/editconfirmed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="20"
+                                android:enabled="false" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <com.ahmed.rounded_imageview.RoundedImageView
+                        android:id="@+id/editPersonal"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/editupload"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/page4Str16"
+                        android:textStyle="bold" />
+
+                    <CheckBox
+                        android:id="@+id/editDonor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/page4Str17"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/editBloodGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp" />
+
+                    <LinearLayout
+                        android:id="@+id/llEditProfile8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/editupdate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:background="@drawable/rounded_border"
+                            android:padding="6dp"
+                            android:text="@string/page4Str18"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

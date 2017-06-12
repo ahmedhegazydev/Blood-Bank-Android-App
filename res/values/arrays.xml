@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- spinnerArray -->
+    <string-array name="spinnerArray">
+         <item>Select Group</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+        <item>O-</item>
+        <item>O+</item>
+    </string-array>
+
+</resources>
